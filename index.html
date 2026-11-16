@@ -15,6 +15,20 @@
     color: #222;
     background: #f3efe3;
   }
+  .menu {
+    background: #ffd400;
+    border-bottom: 3px solid #000;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight: bold;
+  }
+  .menu a {
+    display: inline-block;
+    color: #000;
+    margin: 0 12px;
+    padding: 6px 0;
+  }
+  .menu a.ici { text-decoration: none; }
   .bandeau {
     background: #000;
     color: #fff;
@@ -154,10 +168,16 @@
     .bandeau h1 { font-size: 28px; }
     h2 { font-size: 24px; }
     .appel .tel { font-size: 24px; }
+    .menu a { margin: 0 8px; }
   }
 </style>
 </head>
 <body>
+
+<nav class="menu" aria-label="Menu principal">
+  <a class="ici" href="index.html" aria-current="page">Accueil</a>
+  <a href="chauffe-eau-electrique.html">Chauffe-eau électrique</a>
+</nav>
 
 <header class="bandeau">
   <h1>Vous Cherchez Un Plombier, un Électricien,<br>un Chauffagiste-Climaticien<br>
@@ -179,7 +199,7 @@
   <section class="appel" id="contact">
     <img class="portrait" src="images/didier-desbordes.jpg" alt="Didier Desbordes" width="298" height="429">
     <p class="faites-confiance">Faites Confiance A Didier DESBORDES<br>Appelez Le Au 06 11 60 92 18 !</p>
-    <p><strong>Une fuite, un WC bouché, un chauffe-eau en panne, un changement de robinetterie, une salle de bain à rénover, une clim réversible / pompe à chaleur à installer, ou un chantier complet en électricité, plomberie ou chauffage, une mise en conformité électrique ?</strong></p>
+    <p><strong>Une fuite, un WC bouché, <a href="chauffe-eau-electrique.html">un chauffe-eau en panne</a>, un changement de robinetterie, une salle de bain à rénover, une clim réversible / pompe à chaleur à installer, ou un chantier complet en électricité, plomberie ou chauffage, une mise en conformité électrique ?</strong></p>
     <a class="tel" href="tel:+33611609218">06 11 60 92 18</a>
     <p><small>7 jours sur 7, de 7h45 à 20h30 – Bordeaux et alentours</small></p>
     <p class="formation">Une <strong>FORMATION À L'AUTODÉPANNAGE</strong> par téléphone,<br>c'est <strong>3 FOIS MOINS CHER</strong> qu'une intervention.</p>
@@ -299,7 +319,7 @@
   Didier Desbordes – Plombier-électricien-chauffagiste et climaticien artisan à Bordeaux depuis plus de 15 ans<br>
   <p class="adresse">335 rue Georges Bonnac, 33000 Bordeaux<br>
   <small>(nouvelle adresse avec secrétariat SERVITEL)</small></p>
-  <a href="#contact">Me contacter</a><br>
+  <a href="chauffe-eau-electrique.html">Chauffe-eau électrique</a> – <a href="#contact">Me contacter</a><br>
   <span class="siret">N° SIRET : 340 120 104 00062 – ☆ En activité sur Bordeaux depuis 2009 ☆<br>
   Assurance décennale – contrat n° AU10446915W-004821</span>
 </footer>
